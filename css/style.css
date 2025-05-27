@@ -64,10 +64,13 @@ img{
 }
 
 #hero .image {
-    width: 6rem;
+    width: 8rem;
+    height: 8rem;
     margin-left: 3rem;
     border-radius: 100%;
     overflow: hidden;
+    object-fit: cover;
+    object-position: top;
 }
 
 .bttn-primary {
